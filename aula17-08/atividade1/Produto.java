@@ -1,5 +1,4 @@
 public class Produto {
-
     String nome;
     double preco;
 
@@ -7,4 +6,5 @@ public class Produto {
         this.nome = nome;
         this.preco = preco;
     }
+    
 }

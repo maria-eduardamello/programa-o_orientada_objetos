@@ -1,5 +1,4 @@
 public class Cliente {
-
     String nome;
     String email;
 
@@ -7,4 +6,5 @@ public class Cliente {
         this.nome = nome;
         this.email = email;
     }
+
 }

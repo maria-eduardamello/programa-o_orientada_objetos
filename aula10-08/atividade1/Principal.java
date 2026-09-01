@@ -1,15 +1,23 @@
 public class Principal {
-    public static void main(String[] args) {
-        Produto p1 = new Produto();
-        p1.nome = "Milho";
-        p1.preco = 8.50;
-        p1.estoque = 2;
 
-        p1.exibirInfo();
-        p1.venderProduto();
-        p1.venderProduto();
-        p1.venderProduto();
-        p1.exibirInfo();
-    }
-    
+    public static void main(String[] args) {
+        ContaBancaria c1 = new ContaBancaria();
+        ContaBancaria c2 = new ContaBancaria();
+
+        c1.titular = "Julia";
+        c2.titular = "Pedro";
+
+        c1.saldo = 1500;
+        c2.saldo = 500;
+
+        c1.exibir();
+        c2.exibir();
+
+        c1.depositar(500);
+        c1.exibir();
+
+        c2.sacar(750);
+        c2.sacar(450);
+        c2.exibir();
+    } 
 }
